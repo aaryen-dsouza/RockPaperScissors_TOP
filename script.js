@@ -84,26 +84,3 @@ scissorButton.addEventListener("click", () => {
 });
 
 playAgainButton.addEventListener("click", playAgain);
-
-// const game = () => {
-//   for (let i = 0; i < 5; i++) {
-//     let player = prompt("Enter a tool hand");
-//     let computer = getComputerChoice();
-//     console.log(`-----Round ${i + 1}-----`);
-//     playRound(player, computer);
-//   }
-//   console.log(`-----FINAL RESULT-----`);
-//   if (playerWins > computerWins) {
-//     console.log(
-//       `The player wins with ${playerWins - computerWins} differed points`
-//     );
-//   } else {
-//     console.log(
-//       `The computer wins with ${computerWins - playerWins} differed points`
-//     );
-//   }
-//   playerWins = 0;
-//   computerWins = 0;
-// };
-
-// game();
