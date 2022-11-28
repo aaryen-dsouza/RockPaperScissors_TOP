@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonBatch {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 20px 30px;
+}
+
+.none {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
+.refresh {
+  display: flex;
+  justify-content: center;
+}
